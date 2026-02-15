@@ -1,8 +1,7 @@
 # Machine_learning_Assignment_2
 2024dc04079 Machine_learning_Assignment_2, Clinicaltrials classification model streamlit app
 
-
- AIDS Clinical Trial - Machine Learning Classification Project
+Clinical Trial - Machine Learning Classification Project
 
 ## Table of Contents
 - [Problem Statement](#problem-statement)
