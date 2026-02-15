@@ -41,24 +41,10 @@ This classification problem is critical for healthcare decision-making, as accur
 ### Dataset Overview
 - **Number of Instances:** 2,139 patient records
 - **Number of Features:** 24 attributes
-- **Target Variable:** `infected` (4 classes - multi-class classification)
-- **Study Period:** Completed November 1995
-- **Enrollment:** 2,100 participants
-- **Masking:** Double-Blind
+- **Target Variable:** `trt, wtkg` 
 - **Primary Purpose:** Treatment evaluation
 
-### Study Objectives
-The dataset was created to evaluate the efficacy and safety of various AIDS treatments, specifically comparing:
-- **AZT (Zidovudine)** monotherapy
-- **ddI (Didanosine)** monotherapy
-- **ddC (Zalcitabine)** in combination with AZT
-- **Combination therapy** with nucleoside analogs
-
 The goal was to prevent disease progression in HIV-infected patients with CD4 counts between 200-500 cells/mm³.
-
-### Funding Sources
-- AIDS Clinical Trials Group of the National Institute of Allergy and Infectious Diseases
-- General Research Center units funded by the National Center for Research Resources
 
 ### Key Attributes
 
@@ -203,7 +189,8 @@ All models were trained using weighted averaging for multi-class metrics due to 
 ML Assignment/
 │
 ├── model.py                    # Main training script
-├── README.md                   # This file
+├── README.md
+|-- app.py
 ├── ClinicalTrial.csv          # Dataset (not included in repo)
 │
 ├── Models/                     # Saved model files
@@ -262,11 +249,8 @@ The models demonstrate practical applicability for:
 
 **Project Author:** Manoj M  
 **Date:** February 15, 2026  
-**Course:** Machine Learning Assignment  
+**Course:** Machine Learning Assignment 2 
 **Dataset Source:** [Kaggle - AIDS Clinical Trials](https://www.kaggle.com/datasets/tanshihjen/aids-clinical-trials)
 Kaggle Dataset: https://www.kaggle.com/datasets/tanshihjen/aids-clinical-trials
 Streamlit app link: https://machinelearningassignment2-mogutlcen7azbxtkphtjjx.streamlit.app/
 
-4. Scikit-learn Documentation: https://scikit-learn.org/
-
-5. XGBoost Documentation: https://xgboost.readthedocs.io/
